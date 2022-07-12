@@ -1,4 +1,4 @@
-[![example workflow](https://github.com/AlanSosnovsky/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)](https://github.com/AlanSosnovsky/yamdb_final/actions/workflows/yamdb_workflow.yaml)
+[![Django-app workflow](https://github.com/AlanSosnovsky/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/AlanSosnovsky/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
 # yamdb_final
 yamdb_final
