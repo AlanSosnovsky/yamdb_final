@@ -2,7 +2,6 @@ import csv
 
 from django.contrib.auth import get_user_model
 from django.core.management.base import BaseCommand, CommandError
-
 from reviews.models import Category, Comment, Genre, GenreTitle, Review, Title
 
 User = get_user_model()

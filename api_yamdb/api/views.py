@@ -9,15 +9,15 @@ from rest_framework.decorators import action, api_view, permission_classes
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
+from reviews.models import Category, Genre, Title
 
 from .filters import TitleFilter
 from .permissions import IsAdmin, IsAdminOrReadOnly, IsAuthorOrAdminOrModerator
-from .serializers import CategorySerializer, CommentSerializer
-from .serializers import GenreSerializer, UserMeSerializer, UserSerializer
-from .serializers import ReadOnlyTitleSerializer, ReviewSerializer
-from .serializers import SignupDataSerializer, TitleSerializer
-from .serializers import TokenSerializer
-from reviews.models import Category, Genre, Title
+from .serializers import (CategorySerializer, CommentSerializer,
+                          GenreSerializer, ReadOnlyTitleSerializer,
+                          ReviewSerializer, SignupDataSerializer,
+                          TitleSerializer, TokenSerializer, UserMeSerializer,
+                          UserSerializer)
 
 User = get_user_model()
 
